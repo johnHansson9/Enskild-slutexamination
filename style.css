@@ -1,0 +1,21 @@
+:root {
+    --maxWidth: 1000px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--maxWidth);
+}
+
+.hero {
+    height: 40vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
