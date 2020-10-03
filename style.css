@@ -4,18 +4,75 @@
 
 body {
     margin: 0;
+    font-family: 'PT Sans Caption',"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 3vh;
 }
 
-header {
-    height: 1rem;
+
+
+.header {
     display: flex;
     justify-content: space-between;
-    max-width: var(--maxWidth);
+    align-items: center;
 }
 
-.hero {
-    height: 40vh;   
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+#logo {
+  text-decoration: none;
+  color: white;
+  font-size: 5vh;
+  font-weight: bold;
 }
+    
+#menu-icon {
+  font-family: Geneva, sans-serif;
+  font-size: 6vh;
+}
+    
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 1em;
+    box-sizing: border-box;
+    color: white;
+    background: url(./img/Hero.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.hero-title {
+    max-width: 16em;
+    margin: 0;
+    font-size: 8vh;
+    font-weight: bold;
+    line-height: .9;
+}
+
+.hero-header h2 {
+    max-width: 16em;
+    margin: 0;
+    font-size: 3vh;
+    font-weight: bold;
+    line-height: .9;
+    padding-top: 1rem;
+}
+    
+.hero-footer {
+    display: flex;
+}
+
+.button {
+    padding: .3em .60em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: .1em solid white;
+
+}
+    
+.button-primary {
+        color: black;
+        background-color: rgba(255, 255, 255, 0.555);
+}
+    
