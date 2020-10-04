@@ -9,48 +9,59 @@
 </head>
 
 <body>
-    <!-- HEADER/HERO -->
+    <!-- HEADER/HERO CONTAINER -->
     <section class="hero">
+        <!-- NAVBAR -->
         <header class="header">
             <a id="logo" href="#">logo</a>
             <nav>
                 <a id="menu-icon">&#8801;</a>
             </nav>
         </header>
+        <!-- NAVBAR -->
+
+        <!-- HERO WELCOMING TEXT -->
         <header class="hero-header">
             <h1 class="hero-title">Athens</h1>
             <h2>"Where great food meets culture"</h2>
         </header>
+        <!-- HERO WELCOMING TEXT -->
+
+        <!-- HERO BUTTONS -->
         <footer class="hero-footer">
             <a class="button button-primary" href="#">DISCOVER</a>
             <a class="button" href="#">TRAVEL</a>
         </footer>
+        <!-- HERO BUTTONS -->
+
     </section>
     <!-- HEADER/HERO END -->
 
-    <!-- SECTION WITH NAVIGATION LINKS WITH SVG ICONS AS BUTTONS -->
-    <section class="options">
-        <article>
-            <figure><img src="" alt="accommodation"></figure>
-            <h2>accommodation</h2>
-        </article>
-        <article>
-            <figure><img src="" alt="Restaurants"></figure>
-            <h2>Restaurants</h2>
-        </article>
-        <article>
-            <figure><img src="" alt="Sightseeing"></figure>
-            <h2>Sightseeing</h2>
-        </article>
-        <article>
-            <figure><img src="" alt="Beaches"></figure>
-            <h2>Beaches</h2>
-        </article>
-    </section>
-    <!-- SECTION WITH NAVIGATION LINKS WITH SVG ICONS AS BUTTONS END -->
-
     <!-- MAIN  -->
-    <main>
+    <main class="main">
+
+        <!-- SECTION WITH NAVIGATION LINKS WITH SVG ICONS AS BUTTONS -->
+        <section class="options-grid">
+            <article class="opt__boxes--small bg-wheat-1">
+                <img src="./img/hotel.svg" alt="Accommodation">
+                <h2>accommodation</h2>
+            </article>
+            <article class="opt__boxes--small bg-wheat-2">
+                <img src="./img/menu.svg" alt="Restaurants">
+                <h2>Restaurants</h2>
+            </article>
+            <article class="opt__boxes--small bg-wheat-3">
+                <img src="./img/camera.svg" alt="Sightseeing">
+                <h2>Sightseeing</h2>
+            </article>
+            <article class="opt__boxes--small bg-wheat-4">
+                <img src="./img/beach-vacation.svg" alt="Beaches">
+                <h2>Beaches</h2>
+            </article>
+        </section>
+        <!-- SECTION WITH NAVIGATION LINKS WITH SVG ICONS AS BUTTONS END -->
+
+
         <section class="alternatives">
             <p>
                 About
@@ -66,6 +77,8 @@
             </article>
         </section>
 
+
+        <!-- EVENTS -->
         <section class="events">
             <h2>Events</h2>
             <article>
@@ -75,8 +88,9 @@
                 <a href="#">btn</a>
             </button>
         </section>
+        <!-- EVENTS END-->
 
-
+        <!-- BLOG -->
         <section>
             <h2>Blog</h2>
             <article>
@@ -86,17 +100,25 @@
                 <a href="#">btn</a>
             </button>
         </section>
+        <!-- BLOG END -->
 
     </main>
+    <!-- MAIN END  -->
 
+    <!-- FOOTER WITH SVG ICONS FB/TWITTER/REDDIT/INSTAGRAM -->
     <footer>
         <article>
             <p>FOOTER</p>
         </article>
     </footer>
+    <!-- FOOTER END -->
+
+    <!-- JAVASCRIPT FUNCTIONS -->
     <script>
 
     </script>
+    <!-- JAVASCRIPT FUNCTIONS END-->
+
 </body>
 
 </html>
