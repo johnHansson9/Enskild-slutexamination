@@ -294,10 +294,10 @@ nav .open-menu {
 /* FOOTER */
 .footer {
     align-items: center;
+    text-align: center;
     width: 100vw;
     height: 0 auto;
     margin-top: 8vh;
-    background: rgba(153, 199, 236, 0.541);
 }
 
 .footer  img {
@@ -306,10 +306,9 @@ nav .open-menu {
 
 .svg_icons {
     display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    border: 2px solid black;
-    border-radius: 3px solid black;    
+    justify-content: space-around;
+    align-items: center;   
+    margin-right: 15vw; 
 }
 
 
@@ -343,7 +342,6 @@ nav .open-menu {
 /* NEW PAGE CSS */
 
 .main-2 {
-    background-color: cornflowerblue;
     max-width: 100vw;
     max-height: 100vh;
     margin: 0 auto;
